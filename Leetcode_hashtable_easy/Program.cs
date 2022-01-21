@@ -8,8 +8,8 @@ namespace Leetcode_hashtable_easy
         {
             //Use Main for debugging/ building initial process.
             Console.WriteLine("Process Debugger attached");
-            Pangram a = new Pangram();
-            Console.WriteLine(a.CheckIfPangram("aabcdefghijklmnopqrstuvwxyz"));
+            GroupThePeople a = new GroupThePeople();
+            Console.WriteLine(a.Grouping(new int[] { 3, 3, 2, 3, 3, 1, 3, 3, 2 }));
 
         }
     }
